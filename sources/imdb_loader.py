@@ -146,7 +146,7 @@ class Imdb_loader(object):
 		self.doc_samp_len = doc_samp_len
 
 
-		word_list_list = self.train_word_list_list + self.unlabeled_label_list_list
+		word_list_list = self.train_word_list_list + self.unlabeled_word_list_list
 
 		if include_val:
 			word_list_list += self.val_word_list_list
